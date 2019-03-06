@@ -1,7 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [15.03.05.19]
+
+## [15.03.10.19]
+### Added
+
+##### CMS
+- Mockup of module
+
+### Changed
+- Fixed Issue with Workflow Due Dates 
+
+## [15.03.06.19]
 
 ### Changed
 ##### Chromecast
