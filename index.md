@@ -1,3 +1,3 @@
 # Tracks User Guide
 
-[Expense User Guide](/docs/expenses)
+[Expense User Guide](/TracksDocs/expenses)
