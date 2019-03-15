@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [15.03.15.19]
 
+### Added
+##### TracksHelp
+- Added Tracks Help to main screen header. Added Tracks documentation.
 ### Changed
 ##### Payroll
 - Added checking of permission 'CanEditOwnRecords' on create new record for signed employee [TrelloCard #1101](https://trello.com/c/rxafNmgl/1101-payroll-can-you-add-a-request-to-not-allow-signed-in-employee-the-ability-to-add-a-record-for-themselves)
