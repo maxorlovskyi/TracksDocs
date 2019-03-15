@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [15.03.14.19]
+
+### Changed
+##### Workflow
+- Created simple workflow creator for Incident Forms. Changed Incident Form template. [TrelloCard #1099](https://trello.com/c/2EJYYsVR/1099-workflow-incident-forms-simple-wf-creation)
+##### Org Structure
+- Fixed an issue with saving stores sorting [TrelloCard #1100](https://trello.com/c/sZWELcBM/1100-org-structure-fix-sorting-for-stores)
 
 ## [15.03.06.19]
 
