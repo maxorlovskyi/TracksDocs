@@ -6,16 +6,16 @@ All notable changes to this project will be documented in this file.
 ### Added
 #### Habit Tracks Design
 - Added Habit theme for Login screen;
-- Added TracksStyle config value;[TrelloCard #1107](https://trello.com/c/mNEaMpim/1107-habit-login-design)
+- Added TracksStyle config value [TrelloCard #1107](https://trello.com/c/mNEaMpim/1107-habit-login-design);
 #### Reports Native
 - Created module with new report rendering engine;
 ### Changed
 ##### Workflow
 - Modified Mark As Completed process, added ability to validate workflow item start date, extend parent workflow start date; 
 - Fixed stored procedure for Reset nested workflows;
-- Fixed sorting for Rule Engine items;[TrelloCard #1088](https://trello.com/c/l7JmDrSV/1088-incorrect-due-date-on-extension-request-screen-because-of-mixed-up-rules-engine)
+- Fixed sorting for Rule Engine items [TrelloCard #1088](https://trello.com/c/l7JmDrSV/1088-incorrect-due-date-on-extension-request-screen-because-of-mixed-up-rules-engine);
 #### AboveStores Actual Vs Theo
-- Added feature for update Theo Usage by selected value in Qty;[TrelloCard #1108](https://trello.com/c/G3G4PcQq/1108-avt-load-usage-grid-same-as-po-adjustment)
+- Added feature for update Theo Usage by selected value in Qty [TrelloCard #1108](https://trello.com/c/G3G4PcQq/1108-avt-load-usage-grid-same-as-po-adjustment);
 #### My Workflows
 - Added same permissions as for Evaluation Workflows;
 #### Global Styles
