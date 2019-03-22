@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 - Created module with new report rendering engine;
 ### Changed
 ##### Workflow
-- Modified Mark As Completed process, added ability to validate workflow item start date, extend parent workflow start date; 
+- Modified Mark As Completed process, added ability to validate workflow item start date, extend parent workflow start date [TrelloCard #1105](https://trello.com/c/UEC2C5fs/1105-end-date-prior-to-start-date); 
 - Fixed stored procedure for Reset nested workflows;
 - Fixed sorting for Rule Engine items [TrelloCard #1088](https://trello.com/c/l7JmDrSV/1088-incorrect-due-date-on-extension-request-screen-because-of-mixed-up-rules-engine);
 #### AboveStores Actual Vs Theo
