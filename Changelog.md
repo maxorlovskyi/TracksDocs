@@ -1,6 +1,38 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [15.03.22.19]
+
+### Added
+#### Habit Tracks Design
+- Added Habit theme for Login screen;
+- Added TracksStyle config value;
+#### Reports Native
+- Created module with new report rendering engine;
+### Changed
+##### Workflow
+- Modified Mark As Completed process, added ability to validate workflow item start date, extend parent workflow start date;
+- Fixed stored procedure for Reset nested workflows;
+- Fixed sorting for Rule Engine items;
+#### AboveStores Actual Vs Theo
+- Added feature for update Theo Usage by selected value in Qty;
+#### My Workflows
+- Added same permissions as for Evaluation Workflows;
+#### Global Styles
+- Fix for tables scroll issue after Chrome updates;
+### DB Changes
+#### Modified Stored Procedures
+- usp_WorkflowItem_Reset;
+- usp_WorkflowItem_ExtensionRequest_ChangeStatus;
+- usp_Workflow_Mark_As_Completed;
+- usp_WorkflowItem_Mark_As_Completed;
+- usp_WorkflowItem_ExtensionRequest_Get;
+#### Added Stored Procedures
+- usp_WorkflowItem_ResetRuleEngine;
+- usp_Workflow_UpdateStartEndDate;
+- usp_WorkflowItem_UpdateStartEndDate;
+
+
 ## [15.03.15.19]
 
 ### Added
