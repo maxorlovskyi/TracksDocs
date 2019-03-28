@@ -2,6 +2,14 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.03.28.19]`
+
+- **Habit Tracks Design**
+    - Habit CSS updates
+    - Redesigned Icons for Habit [TrelloCard #1107](https://trello.com/c/mNEaMpim/1107-habit-login-design)
+- **Workflow**
+    - Created permission based feature for managing workflow, tasks, rule engine statuses dates [TrelloCard #1106](https://trello.com/c/CQHCiyxr/1106-discuss-concept-for-worklfow-dates-adming)
+
 `[15.03.25.19]`
 
 - **Reports Native**
