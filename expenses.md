@@ -1,7 +1,7 @@
 # Expenses Module User Guide
 
 > Expenses Module is for the Company Expenses.
-There are two pages: 1st page - Summary Page and 2nd page - Expenses Details page.
+There are two pages: 1st - Summary Page and 2nd - Expenses Details page.
 
 Expenses Permissions
 
