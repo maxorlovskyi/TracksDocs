@@ -2,6 +2,60 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.04.17.19]`
+- **Core**
+    - Introduced to concept of ScreenApiControllers
+- **Expenses**
+    - Updated Controller fo ScreenController
+- **Habit Tracks Design**
+    - Fixed Issue Org Structure Footer button-View [TrelloCard #1130](https://trello.com/c/uPKxuQUm/1130-view-button-in-org-structure-module-has-issue-in-pre-tracks)
+- **POS Item**
+    - Added Prompt and Description fields
+    - Added minor updates [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+
+`[15.04.16.19]`
+- **Dashboard**
+    - Added navigation to Incident Form module from Days Since Last Incident widget [TrelloCard #1126](https://trello.com/c/HgGdOEVr/1126-incident-form-issues-from-email)
+- **Habit Tracks Design**
+    - Updated CSS For Habit
+- **Incident Forms**
+    - Added tab notes, hidden unnecessary tabs from viewer,
+    added attachments tab to viewer (for incident forms) [TrelloCard #1126](https://trello.com/c/HgGdOEVr/1126-incident-form-issues-from-email)
+- **Organization Structure**
+    - Fix for DMA tiers sorting, added fix for DMA view
+    - Added feature for copy tiers from immediate parent to child DMA on create [TrelloCard #1127](https://trello.com/c/hPkwfu2J/1127-orgstructure-dma-fixes)
+- **POS Item**
+    - Updated CMS
+    - Changes log, Validation, Save [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Purchase Order**
+    - Added permission CanDrillToPODetailItem [TrelloCard #1102](https://trello.com/c/BieiadrG/1102-create-functionality-to-allow-user-with-permissions-to-drill-to-the-item-the-po-is-tied-to)
+- **User Admin**
+    - Refactored User Admin module [TrelloCard #1103](https://trello.com/c/P48D3x3r/1103-retest-branch-usersadminupdated-and-merge-into-develop-if-everything-is-okay)
+- **Workflow**
+    - Updated workflow item start (passed username)
+
+`[15.04.03.19]`
+- **Habit Tracks Design**
+    - Fixed habit styles
+- **POS Item**
+    - Added minor fixes to CMS [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Purchase Order**
+    - Added ability to drill to FAB Items from PO constructor [TrelloCard #1102](https://trello.com/c/BieiadrG/1102-create-functionality-to-allow-user-with-permissions-to-drill-to-the-item-the-po-is-tied-to)
+
+`[15.04.02.19]`
+- **POS Item**
+    - Navigation from ingredients tab [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Workflow**
+    - Added UI for running fix scripts [TrelloCard #1124](https://trello.com/c/toOwD97F/1124-incorrect-due-date-on-extension-request-screen-because-of-mixed-up-rules-engine-associate-with-card-343-342-318)
+
+`[15.04.01.19]`
+- **Habit Tracks Design**
+    - Updated Dashboard styles
+- **POS Item**
+    - Created module POS Items: template, DMA, Tiers, OrderingType Manager, Properties tab [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Workflow**
+    - Added 'Fix Rule Engine' Button to Workflow Dates Admin [TrelloCard #1125](https://trello.com/c/IzIiI4op/1125-workflow-admin-check-logic-for-fix-script)
+
 `[15.03.28.19]`
 
 - **Habit Tracks Design**
