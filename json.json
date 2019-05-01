@@ -1,0 +1,190 @@
+{
+    "global": {
+        "lastModified": "2019-06-30T11:00:00-07:00",
+        "categories": [
+            {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "Charburgers",
+                "comboIds": [
+                    "00000000-0000-0000-0000-000000000000",
+                    "00000000-0000-0000-0000-000000000000"
+                ],
+                "itemIds": [
+                    "00000000-0000-0000-0000-000000000000",
+                    "00000000-0000-0000-0000-000000000000",
+                    "00000000-0000-0000-0000-000000000000"
+                ],
+                "groupings": [
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "Charburger",
+                        "prompt": "Would you like cheese on your Charburger",
+                        "options": [
+                            {
+                                "id": "00000000-0000-0000-0000-000000000000",
+                                "comboId": null,
+                                "itemId": "00000000-0000-0000-0000-000000000000",
+                                "name": "With cheese",
+                                "useImages": true,
+                                "usePrice": false
+                            },
+                            {
+                                "id": "00000000-0000-0000-0000-000000000000",
+                                "comboId": null,
+                                "itemId": "00000000-0000-0000-0000-000000000000",
+                                "name": "Without cheese",
+                                "useImages": false,
+                                "usePrice": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "combos": [
+            {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "#1 Combo",
+                "status": "available",
+                "itemIds": [
+                    "00000000-0000-0000-0000-000000000000",
+                    "00000000-0000-0000-0000-000000000000",
+                    "00000000-0000-0000-0000-000000000000"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "Charburger",
+                "description": "A description of the burger",
+                "status": "available",
+                "caloriesMin": 0,
+                "caloriesMax": 0,
+                "modifiers": [
+                    {
+                        // eg, lettuce
+                        "modifierId": "00000000-0000-0000-0000-000000000000",
+                        "defaultModifierSelectionId": "00000000-0000-0000-0000-000000000000",
+                        "type": "ingredient"
+                    },
+                    {
+                        // eg, type of cheese
+                        "modifierId": "00000000-0000-0000-0000-000000000000",
+                        "defaultModifierSelectionId": "00000000-0000-0000-0000-000000000000",
+                        "type": "required_choice"
+                    },
+                    {
+                        // eg, avocado
+                        "modifierId": "00000000-0000-0000-0000-000000000000",
+                        "defaultModifierSelectionId": "00000000-0000-0000-0000-000000000000",
+                        "type": "optional_choice"
+                    }
+                ],
+                "featuredModifierSelections": [
+                    {
+                        "featuredModifierSelectionId": "00000000-0000-0000-0000-000000000000"
+                    }
+                ]
+            }
+        ],
+        "modifiers": [
+            {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "Lettuce",
+                "description": "Crispy Lettuce",
+                "status": "available",
+                "selections": [
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "Extra"
+                    },
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "None"
+                    }
+                ],
+                "featuredSelections": [
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "selectionId": "00000000-0000-0000-0000-000000000000"
+                    }
+                ]
+            }
+        ]
+    },
+    "menus": [
+        {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "storeNumber": "0065",
+            "lastModified": "2019-06-30T11:00:00-07:00",
+            "device": "kiosk", // should this be a single device type, or an array of devices?
+            "type": "breakfast",
+            "categoryIds": [
+                "00000000-0000-0000-0000-000000000000",
+                "00000000-0000-0000-0000-000000000000"
+            ],
+            "hours": [
+                {
+                    "day": "sunday",
+                    "start": "10:00",
+                    "end": "12:00"
+                },
+                {
+                    "day": "tuesday",
+                    "start": "11:00",
+                    "end": "12:00"
+                }
+            ],
+            "combos": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "comboId": "00000000-0000-0000-0000-000000000000",
+                    "priceAdjustment": -0.2,
+                    "status": "available",
+                    "statusReason": null,
+                    "substitutions": [
+                        {
+                            "replacedItemId": "00000000-0000-0000-0000-000000000000",
+                            "replacements": [
+                                {
+                                    // eg, large coke. doesn't remove combo adj, but does slightly increase price
+                                    "replacingItemId": "00000000-0000-0000-0000-000000000000",
+                                    "priceAdjustment": 0.25,
+                                    "removesComboAdjustment": false
+                                },
+                                {
+                                    // eg, shake. removes combo adjustment and increases price
+                                    "replacingItemId": "00000000-0000-0000-0000-000000000000",
+                                    "priceAdjustment": 0.2,
+                                    "removesComboAdjustment": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "itemId": "00000000-0000-0000-0000-000000000000",
+                    "price": 3.5,
+                    "status": "unavailable",
+                    "statusReason": "We've run out of lettuce for the day",
+                    "modifiers": [
+                        {
+                            "id": "00000000-0000-0000-0000-000000000000",
+                            "defaultModifierSelectionId": "00000000-0000-0000-0000-000000000000",
+                            "selections": [
+                                {
+                                    "id": "00000000-0000-0000-0000-000000000000",
+                                    "price": 1.25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
