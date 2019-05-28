@@ -1,6 +1,153 @@
 # Changelog
 
     All notable changes to this project will be documented in this file.
+`[15.05.28.19]`
+- **Adjustments**
+    - Fixes after testing [TrelloCard #1170](https://trello.com/c/sNpycwCy/1170-adjustments-changes)
+    - Added settings, restricted business date edit
+    - Removed toggle button in adjustment options modal
+    - Fixes for adjustments modal after testing [TrelloCard #1175](https://trello.com/c/Wlf2Vxyc/1175-adjustments-new-settings-create-new-for-current-business-date-max-days-for-business-date)
+- **CSS For Habit**
+    - Updated CSS [TrelloCard #1130](https://trello.com/c/uPKxuQUm/1130-view-button-in-org-structure-module-has-issue-in-pre-tracks)
+- **CMS**
+    - Fixing Issues [TrelloCard #1141](https://trello.com/c/hk2bbZMM/1141-cms-testing)
+    - Added new ingredient prop: POSItemLinkPriority
+    - Added disabled row style
+    - Tags, Meal Periods, Views Refactoring [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Form Admin**
+    - Preview form feature [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Incident Form**
+    - Changed to Form [Trello Card #1145](https://trello.com/c/h3d7elQP/1145-remove-old-incident-forms)
+- **Organization Structure**
+    - DMA: Store rule for DMA items on the root level [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+- **Workflow**
+    - Fixed extension request button visibility, changes to extension modal labels [TrelloCard #1169](https://trello.com/c/3nzfwWnX/1169-extension-request-changes)
+    - Workflow Admin Dates: Fix for rule engine steps sorting [TrelloCard #1174](https://trello.com/c/vHxsTBGg/1174-workflow-fix-script-for-rule-engine-add-logic-for-due-date-extension)
+
+`[15.05.17.19]`
+- **Adjustments**
+    - Change business date only by permission
+    - Default business date to yesterday [TrelloCard #1170](https://trello.com/c/sNpycwCy/1170-adjustments-changes)
+- **CMS**
+    - Where Used, Remove View All, Removed Save sort mode
+    - Default Link id [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Form Admin**
+    - Preview modal [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Workflow**
+    - Fix for pending tasks css [TrelloCard #1171](https://trello.com/c/eYMOVahv/1171-workflow-pending-tasks-fix-css)
+
+`[15.05.16.19]`
+- **CMS**
+    - Added section Item Settings, added validation for manage ingredients
+    - Item Prices
+    - Fixing Issues [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Employee**
+    - Trim corpEmpId on change [TrelloCard #1158](https://trello.com/c/Wr2U4xxI/1158-employee-issues)
+- **Expenses**
+    - Fix for amount field [TrelloCard #1143](https://trello.com/c/ezosxfJy/1143-expense)
+- **Form Admin**
+    - Check for changes on folder change
+    - Check if some form items has been updated [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Workflow**
+    - Cleaned up extension requests code
+    - Fix for server validation [TrelloCard #1169](https://trello.com/c/3nzfwWnX/1169-extension-request-changes)
+
+`[15.05.14.19]`
+- **CMS**
+    - Fixing issues
+- **Form Admin**
+    - Added row name [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Organization Structure**
+    - Updated style for list without levels, clone dma only for default view, modified naming method on clone dma [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+- **Workflow**
+    - Added approved by, approved date columns to extension requests grid [TrelloCard #1169](https://trello.com/c/3nzfwWnX/1169-extension-request-changes)
+
+`[15.05.13.19]`
+- **Above Stores**
+    - Added additional fields for grouping
+    - Rows visibility
+    - Added new view to AvT UI, added new grid to AvT module [TrelloCard #970](https://trello.com/c/qKHSViGL/970-add-new-view-to-avt-ui)
+- **CMS**
+    - Fixing issues
+    - Categories with Tiers. Scope Selector
+    - Fixes [TrelloCard #1146](https://trello.com/c/JTlSFW6E/1146-cms-changes-050819)
+    - Sorting
+    - Sorting Table View [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Form Admin**
+    - Hide row list fix
+    - Fixed issues after testing [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Organization Structure**
+    - Updated dma stores grid, validation for tiers, DMA name, email
+    - Updated DMA stores and tiers, lists replaced by grids, fixed minor issues
+    - DMA updates: fix for stores sorting, hidden parent effective dates, added tab view for stores, tiers [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+- **Workflow**
+    - Extension Request validation updates [TrelloCard #1169](https://trello.com/c/3nzfwWnX/1169-extension-request-changes)
+
+`[15.05.06.19]`
+- **CMS**
+    - Added validation to ComboObjNum [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Form Admin**
+    - Fixed save issue, form validation
+    - Modified models after data base changes,  saving pre populate bindings
+    - Api fixes
+    - Saving process, versioning
+    - Form save selector
+    - Save form service
+    - Refactored rich text control, fixes for selectors, view updates
+    - Options, dependencies
+    - Pages actions, page modal, lookups, rows list
+    - Row properties, rich text editor
+    - Folder actions, forms list, pages list
+    - Created form admin module, folder structure, forms list [TrelloCard #1122](https://trello.com/c/t3QcMmFq/1122-workflow-form-admin)
+- **Incident Form**
+    - Modified form result process, added feature for saving last page
+    - Fixed issues from email
+- **Libs**
+    - Updated React and Typescript for Tracks CMS
+- **Organization Structure**
+    - Fixed move modal issue, css of tree view issue [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+
+`[15.04.30.19]`
+- **CMS**
+    - Enhanced PriceLevels Validations [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Organization Structure**
+    - Fixed DMA  issues after testing [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+- **Incident Form**
+    - Fixes by email reports
+
+`[15.04.26.19]`
+- **CMS**
+    - Fixed issues from feedback [TrelloCard #1139](https://trello.com/c/4EoMoq7P/1139-cms-feedback-042619)
+- **Organization Structure**
+    - DMA fixes after testing [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+
+`[15.04.25.19]`
+- **CSS For Habit**
+    - Updated CSS For Habit [TrelloCard #1130](https://trello.com/c/uPKxuQUm/1130-view-button-in-org-structure-module-has-issue-in-pre-tracks)
+- **CMS**
+    - Added validation for Prompt
+    - Fixed issues from feedback [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+
+`[15.04.24.19]`
+- **CSS For Habit**
+    - Updated CSS For Habit [TrelloCard #1130](https://trello.com/c/uPKxuQUm/1130-view-button-in-org-structure-module-has-issue-in-pre-tracks)
+- **CMS**
+    - Ingredient Sorting
+    - Saving Names [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Organization Structure**
+    - Added DMA views, removed tier views
+    - DMA fixes [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
+
+`[15.04.23.19]`
+- **CSS For Habit**
+    - Fixed issue with Workflow Folders
+    - Updated CSS For Habit [TrelloCard #1130](https://trello.com/c/uPKxuQUm/1130-view-button-in-org-structure-module-has-issue-in-pre-tracks)
+- **CMS**
+    - Added new columns to ingredient grid
+    - Default OrderType, Insert/Delete ingredients
+    - Loading sub ingredients, saving ingredient changes [TrelloCard #1096](https://trello.com/c/16ODmLrD/1096-cms)
+- **Organization Structure**
+    - Added DMA sorting, leveled list component, tiers types [TrelloCard #1136](https://trello.com/c/fdAofKHx/1136-dma-updates)
 
 `[15.04.17.19]`
 - **Core**
