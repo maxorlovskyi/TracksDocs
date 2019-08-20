@@ -2,6 +2,103 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.08.20.19]`
+
+- **POSItems**
+    - UI for 86. Refactored 86 structure [TrelloCard #1249](https://trello.com/c/3Wjv1SOG/1249-positems-86)
+- **POSMenu**
+    - Updated Menu JSON [TrelloCard #1258](https://trello.com/c/QbSQOPHc/1258-split-global-and-storemenu-for-mobile-pos-menus)
+- **Workflow Form**
+    - Enabled save progress regardless of required fields status [TrelloCard #1259](https://trello.com/c/nufN9nxF/1259-workflow-form-the-save-progress-button-only-enables-after-the-required-fields-are-completed-was-wondering-if-we-could-have-it-sa)
+- **Clock Entry**
+    - Added feature of Employee Messaging [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+    - Updated break issue alert [TrelloCard #1264](https://trello.com/c/tAOSJY5m/1264-time-clock-updates-show-employee-message-for-clock-in-clock-out-add-break-issue-message)
+    - Added JIcons [TrelloCard #1264](https://trello.com/c/tAOSJY5m/1264-time-clock-updates-show-employee-message-for-clock-in-clock-out-add-break-issue-message)
+- **Store Control Panel**
+    - Added StoreApiClient, StoreControlPanel [TrelloCard #1246](https://trello.com/c/YCZc7FT7/1246-storeapi-kiosk-online-status)
+- **JIcons**
+    - Fixed build for JIcons
+- **CSS for Habit**
+    - CSS Reports Module button fix
+
+`[15.08.07.19]`
+
+- **Org. Structure**
+    - Added maxOrderValue [TrelloCard #1257](https://trello.com/c/Mhu0xpZH/1257-org-structure-add-maxordervalue)
+- **POSItems**
+    - Created 86 feature. Server logic [TrelloCard #1249](https://trello.com/c/3Wjv1SOG/1249-positems-86)
+
+`[15.08.05.19]`
+
+- **Coaliance Theme**
+    - CSS Updates for Tracks mobile
+- **Org. Structure**
+    - Fixed validation message in org structure page for "Set Online" feature [TrelloCard #1220](https://trello.com/c/4V7oAjpt/1220-organization-structure-do-not-allow-setup-store-as-online-if-store-missing-mid-tid-gid-ip-address-lon-lan)
+    - Change StoreMasterId to StoreId in Error message when set stores online [TrelloCard #1220](https://trello.com/c/4V7oAjpt/1220-organization-structure-do-not-allow-setup-store-as-online-if-store-missing-mid-tid-gid-ip-address-lon-lan)
+- **POSItems**
+    - Added new flag and category description [TrelloCard #1247](https://trello.com/c/TYUEGTfm/1247-positem-add-to-item-new-flag-isentree-add-to-categories-new-column-description-update-bhw-menu-payload)
+    - Modified models for menu reprocess [TrelloCard #1247](https://trello.com/c/TYUEGTfm/1247-positem-add-to-item-new-flag-isentree-add-to-categories-new-column-description-update-bhw-menu-payload)
+    - Fixed Ip Address validation in OrgStructure Set Online feature [TrelloCard #1247](https://trello.com/c/TYUEGTfm/1247-positem-add-to-item-new-flag-isentree-add-to-categories-new-column-description-update-bhw-menu-payload)
+
+`[15.08.05.19]`
+
+- **TracksMobile**
+    - Fixed issue with mobile styles
+- **Workflow**
+    - Fixed scorm create registration logic, added ability to open scorm item in new tab by setting [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Obtained and deserialized registration result [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+- **Coaliance Theme**
+    - CSS Updates for Tracks mobile. Coaliance Theme
+
+`[15.07.31.19]`
+
+- **POSMenu**
+    - Added Store Mapping Item Menu push Fixed Login issue [TrelloCard #1260](https://trello.com/c/VGuyaeYm/1260-add-ability-to-pos-menus-for-mobile-for-db)
+    - updated contract for storeApi [TrelloCard #1230](https://trello.com/c/DrBlR4Ht/1230-update-cms-menu-creating)
+- **Workflow**
+    - Added Scorm result getting [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Obtained and deserialized registration result [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Refactored API for getting scorm registration report [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+- **Workflow Schedule**
+    - Added reset status to 0 feature [TrelloCard #1244](https://trello.com/c/hcFBPJbz/1244-workflow-schedule-reset-status-to-0-feature)
+- **JIcons**
+    - Created SVG icons with color
+- **TracksMobile**
+    - Removed AwesomeIcons from TracksMobile 
+    - Made CSS Updates for Tracks mobile. Added new Icons
+
+`[15.07.25.19]`
+
+- **Dashboard**
+    - Added refund reason options in Check reproduction widget [TrelloCard #1213](https://trello.com/c/h8OvYhTg/1213-update-refund-process)
+- **Mobile Expenses**
+    - Fixed loading of attachments [TrelloCard #1193](https://trello.com/c/RjpvHrwc/1193-tracks-mobile-version-iphone)
+- **Users**
+    - Minor UI fixes
+- **Tracks Mobile**
+    - Fixed components/layouts/scrolls [TrelloCard #1030](https://trello.com/c/AR4YsJHZ/1030-tracks-mobile-expenses)
+- **Login**
+    - Fixed recovery password fields 
+- **Order Manager**
+    - Added filter parameters to URL [TrelloCard #1195](https://trello.com/c/FiIB38mx/1195-order-manager-module)
+    - Fixed Source filter [TrelloCard #1195](https://trello.com/c/FiIB38mx/1195-order-manager-module)
+    - Added order manager menu items [TrelloCard #1195](https://trello.com/c/FiIB38mx/1195-order-manager-module)
+    - Changes for local parameters [TrelloCard #1195](https://trello.com/c/FiIB38mx/1195-order-manager-module)
+    - Fixed prop name for BHW contract [TrelloCard #1195](https://trello.com/c/FiIB38mx/1195-order-manager-module)
+- **CSS For Habit**
+    - Created CSS styles for Login and TracksMobile [TrelloCard #1107](https://trello.com/c/mNEaMpim/1107-habit-login-design)
+- **Org. Structure**
+    - Added filtering by Store Id and Store Name in DMA Organizations [TrelloCard #1219](https://trello.com/c/j9v75CVs/1219-dma-add-easy-way-to-find-store-cross-dmas)
+    - Added selected org unit title in DMA Tab [TrelloCard #1219](https://trello.com/c/j9v75CVs/1219-dma-add-easy-way-to-find-store-cross-dmas)
+    - Added validation before setting stores online [TrelloCard #1219](https://trello.com/c/j9v75CVs/1219-dma-add-easy-way-to-find-store-cross-dmas)
+- **JIcons**
+    - Added JIcons, used in Tracks Mobile
+- **Workflow**
+    - Created tables, api services for scorm courses and registration for scorm courses [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Scorm courses item start and opening process [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Open scorm course in iframe [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+    - Check scorm course progress [TrelloCard #1235](https://trello.com/c/znb2eLXX/1235-new-workflow-item-type-scorm-course)
+
 `[15.07.10.19]`
 
 - **StoreStatusUI**
