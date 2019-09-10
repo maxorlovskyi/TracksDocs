@@ -2,6 +2,83 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.09.09.19]`
+
+- **Scorm Admin**
+    - Locked ability to create/edit courses in recycle bin #1267 [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+- **Workflow Admin**
+    - Removed autosave feature, added notification on save not posted template #1262 [TrelloCard #1262](https://trello.com/c/ItlCNdlA/1262-when-cheryl-was-testing-scorm-she-edited-the-workflow-admin-for-scorm-cloud-and-all-the-users-were-deleted-because-the-workflow)
+- **Jicon**
+    - Added checkbox icons 
+    - Added checkbox icons (two styles)
+- **Tracks Mobile**
+    - Mobile KPI Dashboard [TrelloCard #1254](https://trello.com/c/qZYCzHJh/1254-kpi-mobile-dashboard)
+    - ApiServices, KPI Grid Mobile [TrelloCard #1254](https://trello.com/c/qZYCzHJh/1254-kpi-mobile-dashboard)
+- **Employee Messaging Admin**
+    - Added DAL service [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+    - UI structure [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+    - Employee messaging api service [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+    - Employee messaging admin [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+    - Validation and send messages button [TrelloCard #1198](https://trello.com/c/aqwsCKjn/1198-employee-messaging)
+
+`[15.09.05.19]`
+
+- **Organization Structure**
+    - Changed type for IncludeNearMiles to int, added field AvgOrderTime [TrelloCard #1270](https://trello.com/c/lHloUm8s/1270-add-new-fields-to-store-lkpstoremaster-tracks-organizationstructure-corporateapi-json)
+- **SalesCount**
+    - Sales Count Changes #1275 [TrelloCard #1275](https://trello.com/c/thgpXiBo/1275-make-deposit-times-match-the-business-date-times-400am-to-359am-to-prevent-stores-from-having-to-change-the-business-date-after)
+- **Adjustments**
+    - Adjustment Changes #1274 [TrelloCard #1274](https://trello.com/c/APPQZYkY/1274-adjustment-enhancement-permission)
+- **POSItems**
+    - Added calories field, used in Global JSON  #1270 [TrelloCard #1270](https://trello.com/c/lHloUm8s/1270-add-new-fields-to-store-lkpstoremaster-tracks-organizationstructure-corporateapi-json)
+- **Workflow**
+    - Added warning for completed item on extension request #1272 [TrelloCard #1272](https://trello.com/c/z1AIK5th/1272-warning-to-pop-up-when-requesting-an-extension-on-a-completed-course-within-a-flame-workflow)
+    - Showing scorm course status only if item started #1268 [TrelloCard #1268](https://trello.com/c/pcyapz82/1268-add-scorm-course-status-to-ui)
+
+
+`[15.09.04.19]`
+
+- **Organization Structure**
+    - Added new fields to store model IncludeNearMiles, MaxOrderSizeInDollars, MaxOrderSizeInEntrees [TrelloCard #1270](https://trello.com/c/lHloUm8s/1270-add-new-fields-to-store-lkpstoremaster-tracks-organizationstructure-corporateapi-json)
+- **Order Manager**
+    - Implemented features from task [TrelloCard #1269](https://trello.com/c/M1SoWvyA/1269-order-manager)
+
+`[15.09.03.19]`
+
+- **Workflow**
+    - Added Scorm Course result, menu icons [TrelloCard #1268](https://trello.com/c/pcyapz82/1268-add-scorm-course-status-to-ui)
+- **Jicons**
+    - Added search icon
+- **Scorm Admin**
+    - Created scorm admin screen [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+    - Versions view, actions, version modal [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+    - Saving process, validation, versions creation [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+    - Fix for move to folder, naming validation, selection fix [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+    - Fixed save on course select [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+    - Disabled from moving courses in recycle bin [TrelloCard #1267](https://trello.com/c/W8Q6LI4v/1267-workflow-scorm-admin)
+
+`[15.08.29.19]`
+
+- **Workflow**
+    - Added scorm identifier [TrelloCard #1266](https://trello.com/c/aHbWERmP/1266-workflow-scorm-few-courses-for-one-registration-create-two-courses-fe-english-spanish-and-choose-one-of-them-on-workflow-create)
+- **Login**
+    - Fix for reset expired password
+
+`[15.08.26.19]`
+
+- **ClockEntry**
+    - Clock in alert icon replaced by button [TrelloCard #1261](https://trello.com/c/7JDadimP/1261-timeclock-design-update)
+- **ClockEntry Style**
+    - CSS Clock Entry icons [TrelloCard #1261](https://trello.com/c/7JDadimP/1261-timeclock-design-update)
+    - CSS Clock Entry Updates [TrelloCard #1261](https://trello.com/c/7JDadimP/1261-timeclock-design-update)
+    - CSS Clock Entry - buttons updates [TrelloCard #1261](https://trello.com/c/7JDadimP/1261-timeclock-design-update)
+- **POSItem**
+    - Fixed issue with MenuVersions [TrelloCard #1230](https://trello.com/c/DrBlR4Ht/1230-update-cms-menu-creating)
+- **Workflow**
+    - Select scorm course version feature [TrelloCard #1266](https://trello.com/c/aHbWERmP/1266-workflow-scorm-few-courses-for-one-registration-create-two-courses-fe-english-spanish-and-choose-one-of-them-on-workflow-create)
+    - Modified scorm config, refactored API [TrelloCard #1266](https://trello.com/c/aHbWERmP/1266-workflow-scorm-few-courses-for-one-registration-create-two-courses-fe-english-spanish-and-choose-one-of-them-on-workflow-create)
+    - Updated scorm flow for versions using [TrelloCard #1266](https://trello.com/c/aHbWERmP/1266-workflow-scorm-few-courses-for-one-registration-create-two-courses-fe-english-spanish-and-choose-one-of-them-on-workflow-create)
+
 `[15.08.20.19]`
 
 - **POSItems**
