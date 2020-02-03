@@ -2,6 +2,61 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.02.03.20]`
+
+- **Global**
+    - Updated .net version to 4.6.1. Added support for Redis cache DBs
+    - Updated .net version to 4.6.1 for open Weather Map
+
+- **Payroll**
+    - Fixed issue with mapping errors from dictionary [TrelloCard #1361](https://trello.com/c/bjcjinXX/1361-time-clock-check-clock-out-for-time-1200-am-payroll-issue)
+
+- **Tracks Mobile**
+    - CSS for tracks mobile (shedule)
+
+- **Time Clock**
+    - Language fixes
+    - Clock Entry CSS fix fox modal window
+    - Added possibility check app version by some interval and auto refresh
+    - Added Spanish text for check version dialog
+    - Updated version checking process [TrelloCard #1335](https://trello.com/c/fXgAncB9/1335-clock-entry-add-ability-check-app-version-by-some-interval-and-auto-refresh)
+    - Added language selector on auth if employee preferred language is not selected [TrelloCard #1362](https://trello.com/c/yJK9VzNv/1362-clock-entry-on-login-screen-only-english-select-lang-if-not-defined-for-employee)
+
+- **Quiz Admin**
+    - Quiz Admin: added validation for folder names [TrelloCard #1354](https://trello.com/c/iJpsnGQx/1354-workflow-admin-training-list-admin-quiz-admin-don-not-allow-to-add-folders-with-the-same-names)
+
+
+`[15.01.30.20]`
+
+- **Call Center**
+    - Call Center Updates
+
+- **Global**
+    - CSS fix for jicon
+    - CSS Tracks Updates (perfomance test, quiz admin)
+
+- **MIT Tracker**
+    - MIT Tracker: minor fixes, vacations tab 
+    - Vacation editor, GM issue marker, terminated shifts marker [TrelloCard #1349](https://trello.com/c/qvUhl56d/1349-mit-tracker-feedback-1-16-20)
+
+- **Time Clock**
+    - Added classes for active emloyee modal
+    - CSS for Clock Entry (active employees window)
+    - Time Clock: Collected every Yes/No for break issues reports, if under 30 minute break warning, payroll icons, saving lang per employee, permissions for waivers [TrelloCard #1360](https://trello.com/c/GcZ9PgDx/1360-timeclock-changes)
+
+- **Tracks Mobile**
+    - Add classes, fixed expander for shifts, fixed navigation back to shift selecting page, used radio buttons instead of checkboxes in kpi parameters. Added time and date validation in time off and day off pages
+    - CCS Tracks mobile fixes (schedule review, time sheets)
+    - Settings: Added checking waivers permission for mobile [TrelloCard #1360](https://trello.com/c/GcZ9PgDx/1360-timeclock-changes)
+    - KPI Grid: KPI grid response data compression [TrelloCard #1360](https://trello.com/c/GcZ9PgDx/1360-timeclock-changes)
+
+- **Quiz Admin**
+    - CSS updates and fixes for Quiz Admin [TrelloCard #1354](https://trello.com/c/iJpsnGQx/1354-workflow-admin-training-list-admin-quiz-admin-don-not-allow-to-add-folders-with-the-same-names)
+
+- **Workflow**
+    - Fix for passing PT points [TrelloCard #1358](https://trello.com/c/okJCYpvH/1358-an-issue-with-pt-mini-pt-in-flame-training-workflows-lossing-data-upon-saving)
+    - Workflow Admin / Quiz Admin: added validation for add new Folder and fixed other issues from task [TrelloCard #1354](https://trello.com/c/iJpsnGQx/1354-workflow-admin-training-list-admin-quiz-admin-don-not-allow-to-add-folders-with-the-same-names)
+
 `[15.01.23.20]`
 
 - **Global**
