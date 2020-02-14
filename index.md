@@ -8,6 +8,4 @@
 - [Sales](/TracksDocs/trackssales)
 - [Change Password](/TracksDocs/changepassword)
 
-## Mockups
 
-- [Employee Portal](/TracksDocs/mockups/employee-portal-mobile/index.html)
