@@ -2,6 +2,130 @@
 
     All notable changes to this project will be documented in this file.
 
+`[15.03.10.20]`
+- **Payroll**
+  - Changed icons for payroll alerts (EB1 to ERB, EB2 to EB) [TrelloCard #1384](https://trello.com/c/j0afGZhC/1384-change-our-eb1-icon-to-erb-and-eb2-icon-to-just-eb)
+
+- **Employee Messaging**
+  - Added setting for limit Remind me later visibility, added more delay values [TrelloCard #1391](https://trello.com/c/x6twRrMs/1391-add-logic-for-mymessages-with-remind-me-later-setting)
+
+- **Time Clock**
+  - Fixed issue with language switcher dialog, fixed issue with wrong lang in employee module
+  - Fixed defaultTimeout issue if message is opened
+  - Added setting messageTimeout, used in timer [TrelloCard #1382](https://trello.com/c/zkj32ilC/1382-clock-entry-spanish-changes)
+
+- **Workflow**
+  - Added count of requests for each workflowItem to extension requests grid
+  - Added UserName to GetEmployeeItems [TrelloCard #1377](https://trello.com/c/XyV6msPg/1377-extension-request-count)
+
+- **POS Items**
+  - Fixed availability validation
+  - Fixed category selection, added confirm on create potential duplicate
+  - New wizard, steps, lookups
+  - Validation for create wizard
+  - Added new saving method for wizard, added and used new permissions
+  - Fixes for unavailability categories selections [TrelloCard #1379](https://trello.com/c/lk0uWDGu/1379-pos-items-rename-86-tab-add-new-column-like-category-add-grouping-in-unavailability-table-by-these-categories)
+
+- **MIT Tracker**
+  - Fixed vertical scroll
+  - Fixed vacation rendering issue [TrelloCard #1389](https://trello.com/c/hvsELEUY/1389-mit-vertical-scroll)
+
+`[15.02.27.20]`
+
+- **Workflow**
+  - Updated logic for locked item by clock entry for item viewer, items list, pending items
+  - Locked workflow items if employee is not clocked in, used flag allowUsingIfNotClockedIn
+  - Fixed minor UI issues around locked by clock items
+  - Restored permissions CanAdminWorkflowDates, CanEditStartOrEndDate [TrelloCard #1370](https://trello.com/c/u6dttPYh/1370-lock-workflow-items-if-employee-not-on-a-clock-template-type-based)
+
+- **Employee**
+  - Changed validation strenght and added Save Button
+
+- **Time Clock**
+  - Language fixes in task [TrelloCard #1376](https://trello.com/c/tgYbfU3O/1376-clock-entry-language-fixes)
+  - Spanish changes
+
+- **MIT Tracker**
+  - Fixed workflow binding to trainings (by identifier), employee grid fixes
+  - Added opacity to MIT items
+- **POS Items**
+  - Added grouping for 86 items
+  - Made category required, added step to select category [TrelloCard #1387](https://trello.com/c/ibsBbS1B/1387-pos-item-unavailability)
+- **Query Constructor**
+  - Fixed issues about validation on UI [TrelloCard #1181](https://trello.com/c/kQThrOHU/1181-query-ctor)
+
+`[15.02.18.20]`
+
+- **MIT Tracker**
+  - Updated promotion settings
+
+`[15.02.17.20]`
+
+- **Time Clock**
+  - Added Hotfix mark for auto refresh
+
+- **Organization Structure**
+  - Fixed issue for OrgUnit selector
+
+- **MIT Tracker**
+  - Training log
+
+`[15.02.14.20]`
+
+- **Time Clock**
+  - Updated version checking
+  - BreakIssues alert based on BreakLength [TrelloCard #1373](https://trello.com/c/LwhD5myV/1373-clock-entry-break-length)
+
+- **MIT Tracker**
+  - Select first day of week by system option, higher level organizations vacations on timeline
+  - UI changes for upper level vacations, optimized create wizard steps, re-made logic by feedback
+  - Fixed timeline map move issue
+  - Added promotion type id to trainee [TrelloCard #1349](https://trello.com/c/qvUhl56d/1349-mit-tracker-feedback-1-16-20)
+  - Updated promotion prompts, temporary employees view, work around workflows attachments, home store for custom employee, home office promotion, fixes for scheduler, date's range validation
+  - Promotion settings
+
+- **Call Center**
+  - Added CC data
+
+- **Employees**
+  - Fixed issue with OrgUnit selector
+
+`[15.02.06.20]`
+
+- **Tracks Mobile**
+  - Changed unavailability tab order, fix time validation, fixed date picker for iOS phones
+
+- **Labor management**
+  - Added classes for employee alerts [TrelloCard #1350](https://trello.com/c/4egLKvwC/1350-labor-management-css-updates)
+
+- **MIT Tracker**
+  - Added promotion types, changed mappers, validation, created wizard flow [TrelloCard #1349](https://trello.com/c/qvUhl56d/1349-mit-tracker-feedback-1-16-20)
+
+
+`[15.02.05.20]`
+
+- **Dashboard**
+    - Fixes on KPI widget: for local storage, mobile mapping, orgUnitsList in mobile contract
+
+- **Time Clock**
+  - Fixed break length check [TrelloCard #1364](https://trello.com/c/3Ow7FRps/1364-clock-entry-early-break-issue)
+
+- **Tracks Mobile**
+  - Fixed KPI grid rendering [TrelloCard #1254](https://trello.com/c/qZYCzHJh/1254-kpi-mobile-dashboard)
+  - Fixed time format in schedule page
+  - Added busy indicator in Availability page
+  - Prevented multiple click on button when  availability is saving
+  - Improved time and date validation
+
+- **MIT Tracker**
+  - Added styles for messager
+
+- **Labor management**
+  - Styles updates [TrelloCard #1350](https://trello.com/c/4egLKvwC/1350-labor-management-css-updates)
+
+- **Payroll**
+  - Fixed single record modal, icons style fix
+
 `[15.02.03.20]`
 
 - **Global**
